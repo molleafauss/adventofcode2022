@@ -27,5 +27,5 @@ func loader(filename string, parser Parser) {
 }
 
 func main() {
-	loader("../files/day01-calories.txt", &Day01{elves: make([]ElfFood, 10)})
+	loader("../files/day04-cleanup.txt", &Day04{0, 0})
 }
